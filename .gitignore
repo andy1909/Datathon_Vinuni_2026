@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Jupyter Notebook checkpoints and output files
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (often ignored in git to prevent bloating the repo)
+# In datathons, you may choose to check them in or keep them local.
+# We comment this out in case the user wants to keep tracking data, but we list it as professional practice.
+# data/raw/
+# data/processed/
+
+# Submissions
+# data/submissions/
+
+# OS specific files
+.DS_Store
+Thumbs.db
